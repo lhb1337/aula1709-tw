@@ -1,0 +1,18 @@
+{
+  "name": "aula0710-tw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bordas": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/bordas/css/output.css --watch",
+    "scroll": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/scroll/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}

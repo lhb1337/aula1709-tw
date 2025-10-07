@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body class="bg-blue-900 min-h-screen">
+    <div class="overflow-hidden">
+        <section id="carousel"
+            class="flex w-max animate-[slide_20s_linear_infinite] will-change-transform hover:[animation-play-state:paused] [&:has(a:hover)]:hover:[animation-play-state:paused]">
+
+            <!-- imagens e um título -->
+            <div class="flex gap-4 px-2 my-6" id="slides">
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/animacao.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Animação</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/branding.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Branding</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/design.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Design</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/ilustracao.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Ilustração</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/impressa.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Impressa</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/mobile.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Mobile</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/tipografia.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Tipografia</h3>
+                    </div>
+                </a>
+                <a href="http://fiap.com.br" class="p-4 rounded-md hover:bg-blue-700 duration-500">
+                    <div>
+                        <img src="./images/web.webp" alt="Imagem X" class="rounded-md">
+                        <h3 class="text-xl text-white">Web</h3>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/clonarSlide.js"></script>
+</body>
+
+</html>
